@@ -16,6 +16,7 @@
                     colors: {
                         clifford: '#da373d',
                         'maya': '#E76F51',
+                        'bike-bg': '#E76F51',
                     }
                 }
             }
@@ -73,30 +74,41 @@
     <!-- Header section End -->
 
     <!-- Slider Start -->
-    <div class="carousel w-full">
+    <div class="carousel w-full lg:h-[550px]">
         <div id="slide1" class="carousel-item relative w-full">
-            <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp" class="w-full" />
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide4" class="btn btn-circle">❮</a>
-                <a href="#slide2" class="btn btn-circle">❯</a>
+            <div class="flex flex-col lg:flex-row p-12 lg:p-24 bg-maya">
+                <div class="space-y-7 flex-1">
+                    <h2 class="text-6xl font-bold">
+                        Ride-on R15 V4<br>
+                        with SMile
+                    </h2>
+                    <p>
+                        Amet minim mollit non deserunt ullamco
+                        est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                    </p>
+                    <a class="btn bg-maya text-white hover:text-black">Purchase</a>
+                </div>
+                <div class="flex-1">
+                    <img src="images/slider/bike1.png" class="w-[400px]" />
+                </div>
             </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
-            <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp" class="w-full" />
+            <img src="images/slider/bike2.png" class="w-full" />
             <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                 <a href="#slide1" class="btn btn-circle">❮</a>
                 <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
-            <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp" class="w-full" />
+            <img src="images/slider/bike3.png" class="w-full" />
             <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                 <a href="#slide2" class="btn btn-circle">❮</a>
                 <a href="#slide4" class="btn btn-circle">❯</a>
             </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
-            <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp" class="w-full" />
+            <img src="images/slider/bike4.png" class="w-full" />
             <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                 <a href="#slide3" class="btn btn-circle">❮</a>
                 <a href="#slide1" class="btn btn-circle">❯</a>
@@ -104,6 +116,13 @@
         </div>
     </div>
     <!-- Slider End -->
+    <main>
+        <!-- Latest Bike Section -->
+        <section>
+            <h3 class="text-5xl font-bold text-center">Latest Bike</h3>
+        </section>
+        <!-- Latest Bike Section End -->
+    </main>
 </body>
 
 </html>
